@@ -6,6 +6,31 @@
   height: 40vmin;
   pointer-events: none;
 }
+.btn{
+  border: 1px solid #000 !important;
+  padding: 2px 5px !important;
+  border-radius: 10px !important;
+  background-color: #61dafb !important;
+}
+.Portfolios-top{
+  display : flex;
+  justify-content: space-between;
+}
+.Portfolios-title{
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  font-size: larger;
+}
+/* .headerTitle,.shortName,.headerMarketPrice,.headerMarketChange{
+  border: 1px solid #ccc;
+} */
+.portfolioList{
+  padding: 0px 50px;
+}
+.portfolioList:hover{
+  background-color: #0000000a!important;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -36,3 +61,180 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+/* demo */
+
+.my-portfolios {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1F4E79;
+  padding: 10px 20px;
+  color: white;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.back-button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.header-right {
+  display: flex;
+  gap: 20px;
+}
+
+.icon {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.summary-tab {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #F5F5F5;
+  font-weight: bold;
+}
+
+.date {
+  font-size: 14px;
+  color: #888;
+}
+
+.portfolio-list {
+  margin: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-header {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+  padding: 10px 20px;
+  font-weight: bold;
+  background-color: #F5F5F5;
+}
+
+.portfolio-item {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+  padding: 15px 20px;
+  align-items: center;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.portfolio-item:last-child {
+  border-bottom: none;
+}
+
+.portfolio-name {
+  display: flex;
+  align-items: center;
+}
+
+.portfolio-icon {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.portfolio-details {
+  margin-left: 10px;
+  color: gray;
+  font-size: 0.9em;
+}
+
+.portfolio-value {
+  text-align: right;
+  font-weight: bold;
+}
+
+.portfolio-change {
+  text-align: right;
+  font-weight: bold;
+  color: red;
+}
+
+.portfolio-change.positive {
+  color: green;
+}
+
+.portfolio-change-percent {
+  text-align: right;
+  font-weight: bold;
+  color: red;
+}
+
+.portfolio-synced {
+  text-align: right;
+  color: gray;
+  font-size: 0.9em;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  gap: 10px;
+}
+
+.manage-button,
+.add-button {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.manage-button {
+  background-color: white;
+  color: #1F4E79;
+  border: 1px solid #1F4E79;
+}
+
+.add-button {
+  background-color: #1F4E79;
+  color: white;
+}
+.sub-banner {
+  position: relative;
+  width: 100%;
+  height: 500px; 
+  z-index: 0;
+}
+
+.sub-banner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1; 
+}
+
+
+/* demo */
+

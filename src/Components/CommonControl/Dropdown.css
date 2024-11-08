@@ -1,0 +1,52 @@
+/* Apply these styles to your CSS file (e.g., Dropdown.css) */
+
+/* Wrapper for the entire select component */
+.custom-select__control {
+    min-height: 40px; /* Ensure consistent control height */
+    border-radius: 4px; /* Rounded corners */
+    border: 1px solid #ccc; /* Border color */
+    box-shadow: none; /* Remove box shadow */
+  }
+  
+  /* Style the dropdown menu */
+  .custom-select__menu {
+    width: auto; /* Ensure the menu width adapts to content */
+  }
+  
+  /* Style each option in the dropdown */
+  .custom-select__option {
+    padding: 10px 12px; /* Consistent padding */
+    text-align: left; /* Align text to the left */
+    white-space: nowrap; /* Prevent text wrapping */
+    overflow: hidden; /* Hide overflow text */
+    text-overflow: ellipsis; /* Add ellipsis for overflow text */
+  }
+  
+  /* Style the selected value */
+  .custom-select__single-value {
+    text-align: left; /* Align selected value to the left */
+    color: #333; /* Text color */
+  }
+  
+  /* Highlight the currently focused option */
+  .custom-select__option--is-focused {
+    background-color: #f0f0f0; /* Background color when focused */
+  }
+  
+  /* Style the option that is currently selected */
+  .custom-select__option--is-selected {
+    background-color: #007bff; /* Background color when selected */
+    color: white; /* Text color when selected */
+  }
+  
+  /* Style the placeholder text */
+  .custom-select__placeholder {
+    color: #999; /* Placeholder text color */
+  }
+  .MuiAutocomplete-popper {
+    z-index: 1300 !important;
+  }
+  .chinnu{
+    margin-bottom:20px;
+    z-index: 999;
+  }

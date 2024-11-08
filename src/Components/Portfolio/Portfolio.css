@@ -1,0 +1,49 @@
+.headerTitle {
+  text-align: left;
+  font-weight: bold;
+}
+
+.headerMarketPrice {
+  text-align: right;
+  font-size: x-small;
+  width: 95px;
+}
+
+.headerMarketChange {
+  text-align: right;
+  font-size: x-small;
+  width: 130px;
+}
+
+.shortName {
+  text-align: left;
+  font-size: small;
+}
+
+.regularMarketPrice {
+  text-align: right;
+  font-size: small;
+}
+
+.regularMarketChange {
+  text-align: right;
+  font-size: small;
+}
+
+.symbolLink {
+  text-decoration: none;
+  display: block;
+}
+
+.percentText {
+   width: 60px;
+   display: inline-block;
+}
+
+.trash:hover {
+  color: red;
+}
+
+.edit:hover {
+  color: blue;
+}

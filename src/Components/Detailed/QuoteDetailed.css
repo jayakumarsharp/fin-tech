@@ -1,0 +1,22 @@
+.summaryLabel {
+  width: 100px;
+  /* display: inline-block; */
+  font-weight: bold;
+}
+
+.listItems {
+  font-size: small;
+}
+.listLabel {
+  float: left;
+}
+
+.listSubtext {
+  display: block;
+  font-size: x-small;
+  color: gray;
+}
+
+.listValue {
+  float: right;
+}
